@@ -1,4 +1,4 @@
-# Excrc32c
+# excrc32c
 
 A pure Elixir implementation of CRC32C.
 
@@ -18,6 +18,15 @@ def deps do
     {:excrc32c, "~> 0.1.0"}
   ]
 end
+```
+
+### Usage
+
+```elixir
+iex> Excrc32c.crc32c("123456789")
+3808858755
+iex> Excrc32c.crc32c("DYB|O")
+0
 ```
 
 ### Performance
