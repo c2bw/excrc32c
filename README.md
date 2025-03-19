@@ -1,4 +1,4 @@
-# excrc32c
+# excrc32c [![Hex Version](https://img.shields.io/hexpm/v/excrc32c.svg)](https://hex.pm/packages/excrc32c) [![Hex Docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/excrc32c/)
 
 A pure Elixir implementation of CRC32C.
 
