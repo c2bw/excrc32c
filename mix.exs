@@ -12,6 +12,7 @@ defmodule Excrc32c.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
+      docs: docs(),
       description: "Pure Elixir implementation of CRC32C"
     ]
   end
@@ -37,6 +38,16 @@ defmodule Excrc32c.MixProject do
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
       licenses: ["MIT"],
       links: %{"GitHub" => @url}
+    ]
+  end
+
+  defp docs do
+    [
+      main: "readme",
+      name: "excrc32c",
+      canonical: "http://hexdocs.pm/excrc32c",
+      source_url: @url,
+      extras: ["README.md", "LICENSE"]
     ]
   end
 end
